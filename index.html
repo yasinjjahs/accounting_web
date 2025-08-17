@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accounting Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* --- Navbar --- */
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        /* --- Footer --- */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* --- محتوى رئيسي --- */
+        main {
+            padding: 20px;
+            margin-bottom: 60px; /* حتى ما يتغطى المحتوى بالفوتر */
+        }
+    </style>
 </head>
 <body>
-  <h1>أهلاً بك في برنامج المحاسبة</h1>
-  <p>هذا أول موقع تجريبي مرفوع على GitHub Pages 🚀</p>
+    <!-- شريط التنقل -->
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">الفواتير</a></li>
+            <li><a href="#">العملاء</a></li>
+            <li><a href="#">التقارير</a></li>
+        </ul>
+    </nav>
+
+    <!-- المحتوى -->
+    <main>
+        <h1>أهلاً بك في برنامج المحاسبة</h1>
+        <p>هذا أول موقع تجريبي مرفوع على GitHub Pages 🎉</p>
+    </main>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة - Accounting Web</p>
+    </footer>
 </body>
 </html>
