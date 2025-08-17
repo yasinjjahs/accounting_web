@@ -69,3 +69,69 @@
     </footer>
 </body>
 </html>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">الفواتير</a></li>
+            <li><a href="#">العملاء</a></li>
+            <li><a href="#">التقارير</a></li>
+        </ul>
+    </nav>
+
+    <h1>أهلاً بك في برنامج المحاسبة</h1>
+    <p>هذا أول موقع تجريبي مرفوع على GitHub Pages</p>
+
+    <!-- هنا تضيف الجدول -->
+    <h2>دفتر اليومية</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>رقم العملية</th>
+                <th>التاريخ</th>
+                <th>البيان</th>
+                <th>مدين</th>
+                <th>دائن</th>
+                <th>الرصيد</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2025-08-17</td>
+                <td>فاتورة بيع</td>
+                <td>500</td>
+                <td>0</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2025-08-18</td>
+                <td>سداد نقدي</td>
+                <td>0</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+/* --- جدول محاسبي --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #34495e;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
